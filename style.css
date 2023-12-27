@@ -72,7 +72,7 @@ body{
     font-weight: 700;
     font-size: 175px;
     font-family: "Montserrat";
-    letter-spacing: -30px;
+    letter-spacing: -20px;
 }
 .new{
     position: absolute;
@@ -90,6 +90,6 @@ body{
         right: 30%;
     }
     100%{
-        right: 40%;
+        right: 39%;
     }
 }
