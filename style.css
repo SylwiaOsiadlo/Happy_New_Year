@@ -37,12 +37,16 @@ body{
 }
 .y1{
     color: #fff;
+    animation: y1_font_color 2s ease-in-out 2s forwards;
 }
+
 .y2{
     color: #fff;
+    animation: y2_font_color 2s ease-in-out 2s forwards;
 }
 .y3{
     color: #fff;
+    animation: y3_font_color 2s ease-in-out 2s forwards;
 }
 .y4{
     color: #fff;
@@ -60,6 +64,30 @@ body{
     }
     100%{
         top: -350%;
+    }
+}
+@keyframes y1_font_color {
+    0%{
+        color: #fff;
+    }
+    100%{
+        color: palevioletred;
+    }
+}
+@keyframes y2_font_color {
+    0%{
+        color: #fff;
+    }
+    100%{
+        color: paleturquoise;
+    }
+}
+@keyframes y3_font_color {
+    0%{
+        color: #fff;
+    }
+    100%{
+        color: palegreen;
     }
 }
 .year{
@@ -90,6 +118,6 @@ body{
         right: 30%;
     }
     100%{
-        right: 39%;
+        right: 38%;
     }
 }
