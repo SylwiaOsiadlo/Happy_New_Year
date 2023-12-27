@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
 }
 body{
     background-color: #1A1A2E;;
