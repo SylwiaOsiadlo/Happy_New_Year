@@ -81,15 +81,15 @@ body{
 }
 @keyframes new_number {
     0%{
-        right: -100px;
+        right: -10%;
     }
     40%{
-        right: 440px;
+        right: 30%;
     }
     90%{
-        right: 440px;
+        right: 30%;
     }
     100%{
-        right: 670px;
+        right: 40%;
     }
 }
