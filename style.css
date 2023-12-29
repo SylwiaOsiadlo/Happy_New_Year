@@ -90,6 +90,132 @@ body{
         color: palegreen;
     }
 }
+.balloon1 {
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ff5d75;
+    position: absolute;
+    top: 70%;
+    right: 88%;
+    margin-top: 0;
+    opacity: 0;
+    animation: balloon_appear 2s ease-in-out 2s forwards;
+    
+  }
+  .balloon1::after {
+    content: "";
+    width: 4px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+    bottom: -100px;
+    opacity: 0;
+    animation: balloon_appear 2s ease-in-out 2s forwards;
+  }
+  
+  .balloon1::before {
+    content: "";
+    border-style: solid;
+    border-width: 0 10px 20px 10px;
+    border-color: transparent transparent #ff5d75 transparent;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+    opacity: 0;
+    animation: balloon_appear 2s ease-in-out 2s forwards;
+  }
+
+  .balloon2 {
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #5691ff;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    margin-top: 0;
+    opacity: 0;
+    animation: balloon_appear 2s ease-in-out 2s forwards;
+    
+  }
+  .balloon2::after {
+    content: "";
+    width: 4px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+    bottom: -100px;
+    opacity: 0;
+    animation: balloon_appear 2s ease-in-out 2s forwards;
+  }
+  
+  .balloon2::before {
+    content: "";
+    border-style: solid;
+    border-width: 0 10px 20px 10px;
+    border-color: transparent transparent #5691ff transparent;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+    opacity: 0;
+    animation: balloon_appear 2s ease-in-out 2s forwards;
+  }
+
+  .balloon3 {
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #f0fc45;
+    position: absolute;
+    top: 10%;
+    right: 90%;
+    margin-top: 0;
+    opacity: 0;
+    animation: balloon_appear 2s ease-in-out 2s forwards;
+    
+  }
+  .balloon3::after {
+    content: "";
+    width: 4px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+    bottom: -100px;
+    opacity: 0;
+    animation: balloon_appear 2s ease-in-out 2s forwards;
+  }
+  
+  .balloon3::before {
+    content: "";
+    border-style: solid;
+    border-width: 0 10px 20px 10px;
+    border-color: transparent transparent #f0fc45 transparent;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+    opacity: 0;
+    animation: balloon_appear 2s ease-in-out 2s forwards;
+  }
+  @keyframes balloon_appear {
+    0% {
+      opacity: 0; /* Początkowa przezroczystość: całkowicie przezroczysty */
+      transform: translateY(100px); /* Początkowe przesunięcie w dół: poza obszar widoczności */
+    }
+    100% {
+      opacity: 1; /* Końcowa przezroczystość: pełna widoczność */
+      transform: translateY(0); /* Końcowe przesunięcie: brak przesunięcia */
+    }
+  }
 .year{
     position: absolute;
     top: 450px;
